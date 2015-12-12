@@ -33,7 +33,7 @@
                     android:id="@+id/settings_preview_img"
                     android:layout_width="@dimen/size_icon_app"
                     android:layout_height="@dimen/size_icon_app"
-                    android:src="@drawable/ic_launcher" />
+                    android:src="@drawable/ic_launcher_at" />
             </LinearLayout>
             
             <View

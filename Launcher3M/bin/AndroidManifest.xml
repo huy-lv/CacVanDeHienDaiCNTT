@@ -258,12 +258,26 @@
         
         
         
-        <receiver android:name=".mruwidget.MRUWidgetProvider" >
+        
+        
+        
+        <activity android:name=".fragment.SwipeAdminActivity$Controller">
             <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.ASSIST" />
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
             </intent-filter>
-            <meta-data android:name="android.appwidget.provider"
-                android:resource="@xml/widget_info" />
+        </activity>
+        <receiver android:name=".fragment.SwipeAdminActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:description="@string/sample_device_admin_description"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
         </receiver>
     </application>
 </manifest>

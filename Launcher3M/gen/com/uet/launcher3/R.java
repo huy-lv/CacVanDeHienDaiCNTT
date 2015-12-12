@@ -1048,7 +1048,7 @@ containing a value of this type.
         /**  Application name 
          */
         public static final int app_name=0x7f0c000e;
-        public static final int application_name=0x7f0c0071;
+        public static final int application_name=0x7f0c0072;
         /**  Name of a subclass of com.uet.launcher3.BuildInfo used to
          get build information. Can be empty. 
          */
@@ -1218,6 +1218,7 @@ containing a value of this type.
         /**  SafeMode widget error string 
          */
         public static final int safemode_widget_error=0x7f0c0014;
+        public static final int sample_device_admin_description=0x7f0c0071;
         /**  Accessibility confirmation when a screen was moved. 
          */
         public static final int screen_moved=0x7f0c0058;
@@ -1351,8 +1352,8 @@ containing a value of this type.
         public static final int default_workspace_4x4=0x7f070006;
         public static final int default_workspace_5x5=0x7f070007;
         public static final int default_workspace_5x6=0x7f070008;
-        public static final int launcher_preferences=0x7f070009;
-        public static final int widget_info=0x7f07000a;
+        public static final int device_admin_sample=0x7f070009;
+        public static final int launcher_preferences=0x7f07000a;
     }
     public static final class styleable {
         /**  BubbleTextView specific attributes. 

@@ -321,4 +321,8 @@
     <string name="start_service">start service</string>
 	<string name="stop_service">stop_service</string>
 	<string name="service_name">assistive touch service</string>
+	
+	
+	
+	<string name="sample_device_admin_description">Administrator</string>
 </resources>

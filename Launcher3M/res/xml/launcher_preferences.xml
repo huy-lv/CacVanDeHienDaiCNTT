@@ -29,6 +29,12 @@
         android:fragment="com.uet.launcher3.fragment.AssistiveTouchSettingFragment"
         />
     
+    <Preference
+        android:title="Swipe Up Lock"
+        android:key="pref_swipe_up_setting"
+        />
+    
+    
     <PreferenceCategory
         android:title="cate"
         />

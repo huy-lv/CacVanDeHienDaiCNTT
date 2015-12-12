@@ -120,7 +120,7 @@ public class TouchDotView extends LinearLayout{
 	public boolean onTouchEvent(MotionEvent event) {
 		boolean result = mGestureDetector.onTouchEvent(event);
 		if (event.getAction() == MotionEvent.ACTION_UP) {
-			mTopViewIconImg.setImageResource(R.drawable.ic_launcher);
+			mTopViewIconImg.setImageResource(R.drawable.ic_launcher_at_pressed);
 			if (mOnTouchDotViewListener != null) {
 				int w = getWidth() / 2;
 				int h = getHeight() / 2;

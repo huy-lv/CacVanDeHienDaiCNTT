@@ -474,7 +474,7 @@ int string allow_rotation_title 0x7f0c0041
 int string announce_selection 0x7f0c0004
 int string app_filter_class 0x7f0c0009
 int string app_name 0x7f0c000e
-int string application_name 0x7f0c0071
+int string application_name 0x7f0c0072
 int string build_info_class 0x7f0c000a
 int string create_folder_with 0x7f0c0053
 int string crop_wallpaper 0x7f0c0008
@@ -536,6 +536,7 @@ int string receive_first_load_broadcast_permission 0x7f0c000d
 int string receive_launch_broadcasts_permission 0x7f0c000c
 int string safemode_shortcut_error 0x7f0c0013
 int string safemode_widget_error 0x7f0c0014
+int string sample_device_admin_description 0x7f0c0071
 int string screen_moved 0x7f0c0058
 int string service_name 0x7f0c0070
 int string settings_button_text 0x7f0c0040
@@ -650,5 +651,5 @@ int xml app_target_phone 0x7f070005
 int xml default_workspace_4x4 0x7f070006
 int xml default_workspace_5x5 0x7f070007
 int xml default_workspace_5x6 0x7f070008
-int xml launcher_preferences 0x7f070009
-int xml widget_info 0x7f07000a
+int xml device_admin_sample 0x7f070009
+int xml launcher_preferences 0x7f07000a

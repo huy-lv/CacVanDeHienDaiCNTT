@@ -17,8 +17,10 @@
 package com.uet.launcher3;
 
 import com.uet.launcher3.fragment.AssistiveTouchSettingFragment;
+import com.uet.launcher3.fragment.SwipeAdminActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -64,8 +66,11 @@ public class SettingsActivity extends Activity {
 
             pref.setOnPreferenceChangeListener(this);
             
-            Preference pref_AT = (Preference)findPreference(Utilities.TURN_ON_AT_KEY);
+            Preference pref_AT = (Preference)findPreference(Utilities.ASSISTIVE_SETTING);
             pref_AT.setOnPreferenceClickListener(this);
+            
+            Preference prefSwipe = (Preference)findPreference(Utilities.SWIPE_UP_SETTING);
+            prefSwipe.setOnPreferenceClickListener(this);
         }
 
         @Override
@@ -84,9 +89,13 @@ public class SettingsActivity extends Activity {
 
 		@Override
 		public boolean onPreferenceClick(Preference arg0) {
-			if(arg0.getKey().equals(Utilities.TURN_ON_AT_KEY)){
+			//add on click listener by HuyLV
+			if(arg0.getKey().equals(Utilities.ASSISTIVE_SETTING)){
 				AssistiveTouchSettingFragment assistiveTouchSettingFragment = new AssistiveTouchSettingFragment();
 				getFragmentManager().beginTransaction().replace(android.R.id.content,assistiveTouchSettingFragment).addToBackStack(null).commit();
+			}else if(arg0.getKey().equals(Utilities.SWIPE_UP_SETTING)){
+				Intent i = new Intent(getActivity(),SwipeAdminActivity.Controller.class);
+				startActivity(i);
 			}
 			return true;
 		}
