@@ -158,7 +158,7 @@
         <item name="android:textColor">@color/setting_blue</item>
     </style>
     
-<!--     <style name="DialogTransparent" parent="Theme.AppCompat.Light.Dialog"> -->
+    <style name="DialogTransparent" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
 <!--     <item name="windowNoTitle">true</item> -->
-<!-- 	</style> -->
+	</style>
 </resources>

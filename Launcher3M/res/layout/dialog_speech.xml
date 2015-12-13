@@ -1,26 +1,42 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:id="@+id/FrameLayout1"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center" >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+
+    <ImageView
+        android:id="@+id/ivSpeech"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/voicesearch" />
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/ivSpeech"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="132dp"
-        android:textSize="30sp"
-        android:text="..." />
+        android:layout_marginBottom="9dp"
+        android:text="..."
+        android:textSize="25sp" />
 
-    <ImageView
-        android:id="@+id/ivSpeech"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/text1"
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:visibility="gone"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:src="@drawable/voicesearch" />
+        android:layout_centerVertical="true" />
 
-</RelativeLayout>
+	</RelativeLayout>
+    
+
+</FrameLayout>
