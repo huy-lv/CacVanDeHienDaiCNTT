@@ -3,21 +3,17 @@ package com.uet.launcher3.assistivetouch;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.uet.launcher3.R;
-import com.uet.launcher3.assistivetouch.ui.LayoutCheckBoxView;
-import com.uet.launcher3.assistivetouch.util.Settings;
-import com.uet.launcher3.assistivetouch.util.Util;
 //import com.leon.assistivetouch.main.ui.LayoutCheckBoxView;
 //import com.leon.assistivetouch.main.util.Settings;
 //import com.leon.assistivetouch.main.util.Util;
 import android.app.Activity;
 import android.app.AlertDialog;
-
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -29,6 +25,11 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Spinner;
+
+import com.uet.launcher3.R;
+import com.uet.launcher3.assistivetouch.ui.LayoutCheckBoxView;
+import com.uet.launcher3.assistivetouch.util.Settings;
+import com.uet.launcher3.assistivetouch.util.Util;
 
 /** 
  * 类名      SettingActivity.java
@@ -119,6 +120,7 @@ public class SettingsTouchDotActivity extends Activity{
 	private void savePref () {
 		boolean change = false;
 		if (mTouchDotSize != mSetting.getTouchDotSize()) {
+			Log.e("cxz","size="+mTouchDotSize +" "+mSetting.getTouchDotSize());
 			mSetting.setTouchDotSize(mTouchDotSize);
 			change = true;
 		}

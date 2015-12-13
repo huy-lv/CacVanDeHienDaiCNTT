@@ -66,6 +66,8 @@ import android.os.Message;
 import android.os.StrictMode;
 import android.os.SystemClock;
 import android.os.UserHandle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GestureDetectorCompat;
 import android.text.Selection;
 import android.text.SpannableStringBuilder;
@@ -2988,12 +2990,12 @@ public class Launcher extends Activity
                 // is the case.
                 if (intent.getComponent() == null
                         && Intent.ACTION_CALL.equals(intent.getAction())
-                        && checkSelfPermission(Manifest.permission.CALL_PHONE) !=
+                        && ContextCompat.checkSelfPermission(getApplicationContext(),Manifest.permission.CALL_PHONE) !=
                             PackageManager.PERMISSION_GRANTED) {
                     // TODO: Rename sPendingAddItem to a generic name.
                     sPendingAddItem = preparePendingAddArgs(REQUEST_PERMISSION_CALL_PHONE, intent,
                             0, (ItemInfo) tag);
-                    requestPermissions(new String[]{Manifest.permission.CALL_PHONE},
+                    ActivityCompat.requestPermissions(getParent(),new String[]{Manifest.permission.CALL_PHONE},
                             REQUEST_PERMISSION_CALL_PHONE);
                     return false;
                 }

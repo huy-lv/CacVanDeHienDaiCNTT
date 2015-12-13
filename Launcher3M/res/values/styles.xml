@@ -157,4 +157,8 @@
         <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">@color/setting_blue</item>
     </style>
+    
+<!--     <style name="DialogTransparent" parent="Theme.AppCompat.Light.Dialog"> -->
+<!--     <item name="windowNoTitle">true</item> -->
+<!-- 	</style> -->
 </resources>
