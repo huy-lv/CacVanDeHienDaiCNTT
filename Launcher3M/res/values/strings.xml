@@ -299,13 +299,25 @@
     
     
     
-    <string name="key_home_name">key_home_name</string>
-	<string name="key_back_name">key_back_name</string>
-	<string name="key_recent_name">key_recent_name</string>
-	<string name="key_menu_name">key_menu_name</string>
-	<string name="key_search_name">key_search_name</string>
-	<string name="key_power_name">key_power_name</string>
-	<string name="no_root_tip">no_root_tip</string>
+    <string name="setting_touch_panel_click_event">Enable click event</string>
+    <string name="setting_touch_panel_enable_item_text">Enable text</string>
+    <string name="setting_touch_panel_enable_virbrator">Enable vibrator</string>
+    <string name="setting_touch_panel_title">Title</string>
+    <string name="save_preferences">Save</string>
+    <string name="setting_touch_dot_enable_longpress">Enable long press</string>
+    <string name="setting_touch_dot_transparency">Touch dor transparency</string>
+    <string name="setting_touch_dot_size">Touch dot size</string>
+    <string name="setting_touch_dot_preview">Preview</string>
+    <string name="open_settings_touch_panel">Setting touch panel</string>
+    <string name="open_settings_touch_dot">Setting touch dot</string>
+    <string name="enable_boot_start">Start on boot</string>
+    <string name="key_home_name">Home</string>
+	<string name="key_back_name">Back</string>
+	<string name="key_recent_name">Recent</string>
+	<string name="key_menu_name">Menu</string>
+	<string name="key_search_name">Search</string>
+	<string name="key_power_name">Power</string>
+	<string name="no_root_tip">No root access!</string>
 	
 	<string name="touch_dot_is_here_title">touch_dot_is_here_title</string>
     <string name="touch_dot_is_here_message">touch_dot_is_here_message</string>
@@ -317,10 +329,9 @@
     
     <string name="dialog_select_command_title">dialog_select_command_title</string>
     
-    <string name="version_code">1.0</string>
-    <string name="start_service">start service</string>
-	<string name="stop_service">stop_service</string>
-	<string name="service_name">assistive touch service</string>
+    <string name="start_service">Start service</string>
+	<string name="stop_service">Stop service</string>
+	<string name="service_name">Assistive touch service</string>
 	
 	
 	

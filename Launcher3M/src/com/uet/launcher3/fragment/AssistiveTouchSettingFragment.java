@@ -81,12 +81,12 @@ public class AssistiveTouchSettingFragment extends Fragment implements OnClickLi
     	box.setChecked(enable);
     	box.setOnCheckedChangeListener(mOnCheckedChangeListener);
     	
-    	CheckBox auto_update_box = (CheckBox) v.findViewById(R.id.enable_update_checkbox);
-    	enable = mSetting.isEnableAutoUpdate();
-    	auto_update_box.setChecked(enable);
-    	auto_update_box.setOnCheckedChangeListener(mOnCheckedChangeListener);
+//    	CheckBox auto_update_box = (CheckBox) v.findViewById(R.id.enable_update_checkbox);
+//    	enable = mSetting.isEnableAutoUpdate();
+//    	auto_update_box.setChecked(enable);
+//    	auto_update_box.setOnCheckedChangeListener(mOnCheckedChangeListener);
     	
-    	TextView version = (TextView) v.findViewById(R.id.version_textview);
+//    	TextView version = (TextView) v.findViewById(R.id.version_textview);
 //    	String name = AssistiveTouchApplication.getVersionName(getActivity());
 //		String ver = getString(R.string.version_code, name);
 //		version.setText(ver);

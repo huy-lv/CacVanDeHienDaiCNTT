@@ -31,19 +31,19 @@ public final class R {
 		public static final int wallpaper_tile_fg = 0x7f020049;
 	}
 	public static final class id {
-		public static final int cropView = 0x7f090066;
-		public static final int live_wallpaper_list = 0x7f09006c;
-		public static final int loading = 0x7f090067;
-		public static final int master_wallpaper_list = 0x7f09006a;
-		public static final int menu_delete = 0x7f090080;
+		public static final int cropView = 0x7f090063;
+		public static final int live_wallpaper_list = 0x7f090069;
+		public static final int loading = 0x7f090064;
+		public static final int master_wallpaper_list = 0x7f090067;
+		public static final int menu_delete = 0x7f09007d;
 		public static final int set_wallpaper_button = 0x7f09000e;
-		public static final int third_party_wallpaper_list = 0x7f09006d;
-		public static final int wallpaper_icon = 0x7f090070;
-		public static final int wallpaper_image = 0x7f09006e;
-		public static final int wallpaper_item_label = 0x7f09006f;
-		public static final int wallpaper_list = 0x7f09006b;
-		public static final int wallpaper_scroll_container = 0x7f090069;
-		public static final int wallpaper_strip = 0x7f090068;
+		public static final int third_party_wallpaper_list = 0x7f09006a;
+		public static final int wallpaper_icon = 0x7f09006d;
+		public static final int wallpaper_image = 0x7f09006b;
+		public static final int wallpaper_item_label = 0x7f09006c;
+		public static final int wallpaper_list = 0x7f090068;
+		public static final int wallpaper_scroll_container = 0x7f090066;
+		public static final int wallpaper_strip = 0x7f090065;
 	}
 	public static final class layout {
 		public static final int actionbar_set_wallpaper = 0x7f040000;

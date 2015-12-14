@@ -100,7 +100,7 @@ public class TouchDotView extends LinearLayout{
 
 		@Override
 		public boolean onSingleTapConfirmed(MotionEvent e) {
-			mTopViewIconImg.setImageResource(R.drawable.ic_launcher_at_pressed);
+//			mTopViewIconImg.setImageResource(R.drawable.ic_launcher_at_pressed);
 			if (mOnTouchDotViewListener != null) {
 				mOnTouchDotViewListener.onSingleTap(TouchDotView.this);
 				return true;
@@ -120,7 +120,7 @@ public class TouchDotView extends LinearLayout{
 	public boolean onTouchEvent(MotionEvent event) {
 		boolean result = mGestureDetector.onTouchEvent(event);
 		if (event.getAction() == MotionEvent.ACTION_UP) {
-			mTopViewIconImg.setImageResource(R.drawable.ic_launcher_at_pressed);
+			mTopViewIconImg.setImageResource(R.drawable.ic_launcher_at);
 			if (mOnTouchDotViewListener != null) {
 				int w = getWidth() / 2;
 				int h = getHeight() / 2;
@@ -128,6 +128,8 @@ public class TouchDotView extends LinearLayout{
 				int y = (int) (event.getRawY() - h);
 				mOnTouchDotViewListener.onTouchUp(this, x, y);
 			}
+		}else if(event.getAction()==MotionEvent.ACTION_DOWN){
+			mTopViewIconImg.setImageResource(R.drawable.ic_launcher_at_pressed);
 		}
 		return result; 
 	}

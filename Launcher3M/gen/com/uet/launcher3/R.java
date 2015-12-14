@@ -693,7 +693,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int FrameLayout1=0x7f09002c;
-        public static final int actionButton=0x7f090076;
+        public static final int actionButton=0x7f090073;
         public static final int action_add_to_workspace=0x7f090005;
         public static final int action_info=0x7f090004;
         public static final int action_move=0x7f090006;
@@ -705,86 +705,84 @@ containing a value of this type.
         public static final int action_remove=0x7f090002;
         public static final int action_resize=0x7f09000a;
         public static final int action_uninstall=0x7f090003;
-        public static final int active=0x7f090056;
+        public static final int active=0x7f090053;
         public static final int all_apps=0x7f09000b;
         public static final int all_apps_container=0x7f09001f;
         public static final int all_apps_reveal=0x7f09001e;
         public static final int apps_list_view=0x7f090020;
         public static final int apps_view=0x7f09001b;
-        public static final int auto_update_view=0x7f090035;
         public static final int boot_start_view=0x7f090033;
         public static final int bottom_layout=0x7f09000f;
-        public static final int button1=0x7f090077;
-        public static final int button2=0x7f090078;
-        public static final int button3=0x7f090079;
-        public static final int cling_content=0x7f09004c;
-        public static final int cling_dismiss_longpress_info=0x7f09004d;
-        public static final int cling_dismiss_migration_copy_apps=0x7f090050;
-        public static final int cling_dismiss_migration_use_default=0x7f090051;
+        public static final int button1=0x7f090074;
+        public static final int button2=0x7f090075;
+        public static final int button3=0x7f090076;
+        public static final int cling_content=0x7f090049;
+        public static final int cling_dismiss_longpress_info=0x7f09004a;
+        public static final int cling_dismiss_migration_copy_apps=0x7f09004d;
+        public static final int cling_dismiss_migration_use_default=0x7f09004e;
         public static final int content=0x7f09001d;
-        public static final int cropView=0x7f090066;
-        public static final int delete_target_text=0x7f09005b;
+        public static final int cropView=0x7f090063;
+        public static final int delete_target_text=0x7f090058;
         public static final int dismiss_search_button=0x7f090024;
         public static final int drag_event_parity=0x7f090001;
-        public static final int drag_layer=0x7f09003f;
-        public static final int drag_target_bar=0x7f09005a;
+        public static final int drag_layer=0x7f09003c;
+        public static final int drag_target_bar=0x7f090057;
         public static final int empty_text=0x7f090021;
         public static final int enable_boot_checkbox=0x7f090034;
-        public static final int enable_update_checkbox=0x7f090036;
-        public static final int focus_indicator=0x7f090040;
-        public static final int folder_content=0x7f090062;
-        public static final int folder_content_wrapper=0x7f090061;
-        public static final int folder_footer=0x7f090064;
+        public static final int focus_indicator=0x7f09003d;
+        public static final int folder_content=0x7f09005f;
+        public static final int folder_content_wrapper=0x7f09005e;
+        public static final int folder_footer=0x7f090061;
         public static final int folder_icon_name=0x7f090031;
-        public static final int folder_name=0x7f090065;
-        public static final int folder_page_indicator=0x7f090063;
-        public static final int hotseat=0x7f090042;
-        public static final int ic_cling_migration=0x7f09004f;
+        public static final int folder_name=0x7f090062;
+        public static final int folder_page_indicator=0x7f090060;
+        public static final int hotseat=0x7f09003f;
+        public static final int ic_cling_migration=0x7f09004c;
         public static final int icon=0x7f090022;
-        public static final int imageView=0x7f090074;
-        public static final int inactive=0x7f090055;
-        public static final int info_target_text=0x7f09005c;
-        public static final int item_icon=0x7f090057;
-        public static final int item_summary=0x7f090059;
-        public static final int item_title=0x7f090058;
+        public static final int imageView=0x7f090071;
+        public static final int inactive=0x7f090052;
+        public static final int info_target_text=0x7f090059;
+        public static final int item_icon=0x7f090054;
+        public static final int item_summary=0x7f090056;
+        public static final int item_title=0x7f090055;
         /**  ItemTouchHelper uses this id to save a View's original elevation. 
          */
         public static final int item_touch_helper_previous_elevation=0x7f090000;
         public static final int ivSpeech=0x7f09002d;
-        public static final int key_grid_item_view=0x7f09003b;
-        public static final int key_grid_view=0x7f090060;
-        public static final int key_item_icon_img=0x7f09003c;
-        public static final int key_item_title_text=0x7f09003d;
-        public static final int launcher=0x7f09003e;
-        public static final int launcher_overlay=0x7f090048;
-        public static final int launcher_overlay_stub=0x7f090047;
-        public static final int layout=0x7f09003a;
+        public static final int key_grid_item_view=0x7f090038;
+        public static final int key_grid_view=0x7f09005d;
+        public static final int key_item_icon_img=0x7f090039;
+        public static final int key_item_title_text=0x7f09003a;
+        public static final int launcher=0x7f09003b;
+        public static final int launcher_overlay=0x7f090045;
+        public static final int launcher_overlay_stub=0x7f090044;
+        public static final int layout=0x7f090037;
         public static final int layout_checkbox=0x7f09002a;
         public static final int layout_footer_divider=0x7f09002b;
         public static final int layout_header_divider=0x7f090027;
         public static final int layout_text=0x7f090029;
         public static final int layout_view=0x7f090028;
-        public static final int live_wallpaper_list=0x7f09006c;
-        public static final int loading=0x7f090067;
-        public static final int longpress_cling=0x7f09004b;
-        public static final int main_settings_touch_dot_btn=0x7f090037;
-        public static final int main_settings_touch_panel_btn=0x7f090038;
-        public static final int master_wallpaper_list=0x7f09006a;
-        public static final int menu_delete=0x7f090080;
-        public static final int migration_cling=0x7f09004e;
-        public static final int overview_panel=0x7f090043;
-        public static final int page_indicator=0x7f090041;
+        public static final int live_wallpaper_list=0x7f090069;
+        public static final int loading=0x7f090064;
+        public static final int longpress_cling=0x7f090048;
+        public static final int main_settings_touch_dot_btn=0x7f090035;
+        public static final int main_settings_touch_panel_btn=0x7f090036;
+        public static final int master_wallpaper_list=0x7f090067;
+        public static final int menu_delete=0x7f09007d;
+        public static final int migration_cling=0x7f09004b;
+        public static final int overview_panel=0x7f090040;
+        public static final int page_indicator=0x7f09003e;
         public static final int preview_background=0x7f090030;
         public static final int progressBar1=0x7f09002f;
-        public static final int search_box=0x7f09004a;
+        public static final int search_box=0x7f090047;
         public static final int search_box_container=0x7f09001c;
         public static final int search_box_input=0x7f090025;
         public static final int search_button=0x7f090026;
         public static final int search_container=0x7f090023;
-        public static final int search_drop_target_bar=0x7f090044;
-        public static final int search_dummy=0x7f090045;
-        public static final int search_overlay=0x7f090049;
-        public static final int section=0x7f09007b;
+        public static final int search_drop_target_bar=0x7f090041;
+        public static final int search_dummy=0x7f090042;
+        public static final int search_overlay=0x7f090046;
+        public static final int section=0x7f090078;
         public static final int service_start_stop_btn=0x7f090032;
         public static final int set_wallpaper_button=0x7f09000e;
         public static final int setting_touch_dot_enable_long_press=0x7f090015;
@@ -792,7 +790,7 @@ containing a value of this type.
         public static final int setting_touch_panel_click_event_view=0x7f09001a;
         public static final int setting_touch_panel_enable_virbrator_view=0x7f090018;
         public static final int setting_touch_panel_item_text_view=0x7f090019;
-        public static final int settings_button=0x7f090054;
+        public static final int settings_button=0x7f090051;
         public static final int settings_custom_size_view=0x7f090012;
         public static final int settings_input_size_edit=0x7f090013;
         public static final int settings_preview_img=0x7f090010;
@@ -800,30 +798,29 @@ containing a value of this type.
         public static final int settings_touch_dot_size_spinner=0x7f090011;
         public static final int settings_touch_dot_transparent_bar=0x7f090014;
         public static final int text1=0x7f09002e;
-        public static final int textView=0x7f090075;
-        public static final int third_party_wallpaper_list=0x7f09006d;
-        public static final int top_view_icon=0x7f09005e;
-        public static final int top_view_keys_layout=0x7f09005f;
-        public static final int uninstall_target_text=0x7f09005d;
-        public static final int version_textview=0x7f090039;
-        public static final int wallpaper_button=0x7f090052;
-        public static final int wallpaper_icon=0x7f090070;
-        public static final int wallpaper_image=0x7f09006e;
-        public static final int wallpaper_item_label=0x7f09006f;
-        public static final int wallpaper_list=0x7f09006b;
-        public static final int wallpaper_scroll_container=0x7f090069;
-        public static final int wallpaper_strip=0x7f090068;
-        public static final int widget_button=0x7f090053;
-        public static final int widget_dims=0x7f090072;
-        public static final int widget_name=0x7f090071;
-        public static final int widget_preview=0x7f090073;
+        public static final int textView=0x7f090072;
+        public static final int third_party_wallpaper_list=0x7f09006a;
+        public static final int top_view_icon=0x7f09005b;
+        public static final int top_view_keys_layout=0x7f09005c;
+        public static final int uninstall_target_text=0x7f09005a;
+        public static final int wallpaper_button=0x7f09004f;
+        public static final int wallpaper_icon=0x7f09006d;
+        public static final int wallpaper_image=0x7f09006b;
+        public static final int wallpaper_item_label=0x7f09006c;
+        public static final int wallpaper_list=0x7f090068;
+        public static final int wallpaper_scroll_container=0x7f090066;
+        public static final int wallpaper_strip=0x7f090065;
+        public static final int widget_button=0x7f090050;
+        public static final int widget_dims=0x7f09006f;
+        public static final int widget_name=0x7f09006e;
+        public static final int widget_preview=0x7f090070;
         public static final int widget_section=0x7f09000c;
-        public static final int widgets_cell_list=0x7f09007d;
-        public static final int widgets_cell_list_container=0x7f09007a;
-        public static final int widgets_list_view=0x7f09007f;
-        public static final int widgets_reveal_view=0x7f09007e;
-        public static final int widgets_scroll_container=0x7f09007c;
-        public static final int widgets_view=0x7f090046;
+        public static final int widgets_cell_list=0x7f09007a;
+        public static final int widgets_cell_list_container=0x7f090077;
+        public static final int widgets_list_view=0x7f09007c;
+        public static final int widgets_reveal_view=0x7f09007b;
+        public static final int widgets_scroll_container=0x7f090079;
+        public static final int widgets_view=0x7f090043;
         public static final int workspace=0x7f09000d;
     }
     public static final class integer {
@@ -1053,7 +1050,7 @@ containing a value of this type.
         /**  Application name 
          */
         public static final int app_name=0x7f0c000e;
-        public static final int application_name=0x7f0c0072;
+        public static final int application_name=0x7f0c007d;
         /**  Name of a subclass of com.uet.launcher3.BuildInfo used to
          get build information. Can be empty. 
          */
@@ -1077,11 +1074,12 @@ containing a value of this type.
         /**  Label for uninstall drop target. [CHAR_LIMIT=20]
          */
         public static final int delete_target_uninstall_label=0x7f0c0020;
-        public static final int dialog_cancel=0x7f0c006a;
-        public static final int dialog_confirm=0x7f0c0069;
-        public static final int dialog_select_command_title=0x7f0c006c;
-        public static final int dialog_setting_message=0x7f0c0068;
-        public static final int dialog_setting_title=0x7f0c006b;
+        public static final int dialog_cancel=0x7f0c0076;
+        public static final int dialog_confirm=0x7f0c0075;
+        public static final int dialog_select_command_title=0x7f0c0078;
+        public static final int dialog_setting_message=0x7f0c0074;
+        public static final int dialog_setting_title=0x7f0c0077;
+        public static final int enable_boot_start=0x7f0c006a;
         /**  Clings 
  The title text for the workspace cling [CHAR_LIMIT=30] 
          */
@@ -1141,12 +1139,12 @@ containing a value of this type.
         /**  Accessibility confirmation for item removed. 
          */
         public static final int item_removed=0x7f0c004a;
-        public static final int key_back_name=0x7f0c0060;
-        public static final int key_home_name=0x7f0c005f;
-        public static final int key_menu_name=0x7f0c0062;
-        public static final int key_power_name=0x7f0c0064;
-        public static final int key_recent_name=0x7f0c0061;
-        public static final int key_search_name=0x7f0c0063;
+        public static final int key_back_name=0x7f0c006c;
+        public static final int key_home_name=0x7f0c006b;
+        public static final int key_menu_name=0x7f0c006e;
+        public static final int key_power_name=0x7f0c0070;
+        public static final int key_recent_name=0x7f0c006d;
+        public static final int key_search_name=0x7f0c006f;
         /**  Widgets 
  Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] 
          */
@@ -1175,10 +1173,12 @@ containing a value of this type.
         /**  Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] 
          */
         public static final int msg_no_phone_permission=0x7f0c0028;
-        public static final int no_root_tip=0x7f0c0065;
+        public static final int no_root_tip=0x7f0c0071;
         /**  URI used to import old favorites. [DO NOT TRANSLATE] 
          */
         public static final int old_launcher_provider_uri=0x7f0c000b;
+        public static final int open_settings_touch_dot=0x7f0c0069;
+        public static final int open_settings_touch_panel=0x7f0c0068;
         /**  Error message when user has filled a home screen 
          */
         public static final int out_of_space=0x7f0c001b;
@@ -1223,23 +1223,31 @@ containing a value of this type.
         /**  SafeMode widget error string 
          */
         public static final int safemode_widget_error=0x7f0c0014;
-        public static final int sample_device_admin_description=0x7f0c0071;
+        public static final int sample_device_admin_description=0x7f0c007c;
+        public static final int save_preferences=0x7f0c0063;
         /**  Accessibility confirmation when a screen was moved. 
          */
         public static final int screen_moved=0x7f0c0058;
-        public static final int service_name=0x7f0c0070;
+        public static final int service_name=0x7f0c007b;
+        public static final int setting_touch_dot_enable_longpress=0x7f0c0064;
+        public static final int setting_touch_dot_preview=0x7f0c0067;
+        public static final int setting_touch_dot_size=0x7f0c0066;
+        public static final int setting_touch_dot_transparency=0x7f0c0065;
+        public static final int setting_touch_panel_click_event=0x7f0c005f;
+        public static final int setting_touch_panel_enable_item_text=0x7f0c0060;
+        public static final int setting_touch_panel_enable_virbrator=0x7f0c0061;
+        public static final int setting_touch_panel_title=0x7f0c0062;
         /**  Text for settings button 
          */
         public static final int settings_button_text=0x7f0c0040;
-        public static final int start_service=0x7f0c006e;
-        public static final int stop_service=0x7f0c006f;
+        public static final int start_service=0x7f0c0079;
+        public static final int stop_service=0x7f0c007a;
         public static final int toggle_weight_watcher=0x7f0c0015;
-        public static final int touch_dot_is_here_message=0x7f0c0067;
-        public static final int touch_dot_is_here_title=0x7f0c0066;
+        public static final int touch_dot_is_here_message=0x7f0c0073;
+        public static final int touch_dot_is_here_title=0x7f0c0072;
         /**  Text to inform the user that they can't uninstall a system application 
          */
         public static final int uninstall_system_app_text=0x7f0c002b;
-        public static final int version_code=0x7f0c006d;
         /**  Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.
          e.g. "Wallpaper 3 of 10" 
  Accessibility string used as a label for a particular wallpaper in the Wallpaper Picker list.

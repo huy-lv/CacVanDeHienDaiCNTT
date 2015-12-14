@@ -432,47 +432,83 @@ public class IconCache {
     	//changed by Huy
     	if(entry.icon==null){
     		return getDefaultIcon(user);
-    	}else if(entry.title.equals("Calendar")){
+    	}
+    	else if(entry.title.equals("Browser")){
+    		return getBitmapFromAsset(mContext,"appicon/browser.png");
+    	}
+    	else if(entry.title.equals("Calendar")){
     		return getBitmapFromAsset(mContext,"appicon/calendar.png");
-    	}else if(entry.title.equals("Camera")){
+    	}
+    	else if(entry.title.equals("Camera")){
         	return getBitmapFromAsset(mContext,"appicon/camera.png");
-        }else if(entry.title.equals("Contacts")){
-        	return getBitmapFromAsset(mContext,"appicon/contacts.png");
-        }else if(entry.title.equals("Downloads")){
-        	return getBitmapFromAsset(mContext,"appicon/downloads.png");
-        }else if(entry.title.equals("Facebook")){
-        	return getBitmapFromAsset(mContext,"appicon/facebook.png");
-        }else if(entry.title.equals("Gmail")){
-        	return getBitmapFromAsset(mContext,"appicon/gmail.png");
-        }else if(entry.title.equals("Messenger")){
-        	return getBitmapFromAsset(mContext,"appicon/messenger.png");
-        }else if(entry.title.equals("Music")){
-        	return getBitmapFromAsset(mContext,"appicon/musicplayer.png");
-        }else if(entry.title.equals("Phone")){
-        	return getBitmapFromAsset(mContext,"appicon/phone.png");
-        }else if(entry.title.equals("Play Store")){
-        	return getBitmapFromAsset(mContext,"appicon/playstore.png");
-        }else if(entry.title.equals("Skype")){
-        	return getBitmapFromAsset(mContext,"appicon/skype.png");
-        }else if(entry.title.equals("Youtube")){
-        	return getBitmapFromAsset(mContext,"appicon/youtube.png");
-        }else if(entry.title.equals("Clock")){
+        }
+    	else if(entry.title.equals("Clock")){
         	return getBitmapFromAsset(mContext,"appicon/clock.png");
+        }
+    	else if(entry.title.equals("Contacts")){
+        	return getBitmapFromAsset(mContext,"appicon/contacts.png");
+        }
+    	else if(entry.title.equals("Clean Master (Boost & AppLock)")){
+    		return getBitmapFromAsset(mContext,"appicon/cleanmaster.png");
+    	}
+    	else if(entry.title.equals("Downloads")){
+        	return getBitmapFromAsset(mContext,"appicon/downloads.png");
+        }
+    	else if(entry.title.equals("Facebook")){
+        	return getBitmapFromAsset(mContext,"appicon/facebook.png");
+        }
+    	else if(entry.title.equals("Gmail")){
+        	return getBitmapFromAsset(mContext,"appicon/gmail.png");
+        }
+    	else if(entry.title.equals("Google")){
+        	return getBitmapFromAsset(mContext,"appicon/search.png");
+        }
+    	else if(entry.title.equals("Google Keep")){
+        	return getBitmapFromAsset(mContext,"appicon/googlekeep.png");
+        }
+    	else if(entry.title.equals("Gallery")){
+        	return getBitmapFromAsset(mContext,"appicon/gallery.png");
+        }
+    	else if(entry.title.equals("Instagram")){
+        	return getBitmapFromAsset(mContext,"appicon/instagram.png");
+        }
+    	else if(entry.title.equals("Messenger")){
+        	return getBitmapFromAsset(mContext,"appicon/messenger.png");
         }else if(entry.title.equals("Messaging")){
         	return getBitmapFromAsset(mContext,"appicon/message.png");
-        }else if(entry.title.equals("Gallery")){
-        	return getBitmapFromAsset(mContext,"appicon/gallery.png");
-        }else if(entry.title.equals("QMemo+")){
+        }
+    	else if(entry.title.equals("Music")){
+        	return getBitmapFromAsset(mContext,"appicon/musicplayer.png");
+        }
+    	else if(entry.title.equals("Phone")){
+        	return getBitmapFromAsset(mContext,"appicon/phone.png");
+        }
+    	else if(entry.title.equals("Play Store")){
+        	return getBitmapFromAsset(mContext,"appicon/playstore.png");
+        }
+    	else if(entry.title.equals("QMemo+")){
         	return getBitmapFromAsset(mContext,"appicon/notes.png");
-        }else if(entry.title.equals("Google")){
-        	return getBitmapFromAsset(mContext,"appicon/search.png");
-        }else if(entry.title.equals("SuperSU")){
+        }
+    	else if(entry.title.equals("Skype")){
+        	return getBitmapFromAsset(mContext,"appicon/skype.png");
+        }
+    	else if(entry.title.equals("SuperSU")){
         	return getBitmapFromAsset(mContext,"appicon/supersu.png");
-        }else if(entry.title.equals("Voice Recorder")){
+        }
+    	else if(entry.title.equals("Twitter")){
+        	return getBitmapFromAsset(mContext,"appicon/twitter.png");
+        }
+    	else if(entry.title.equals("Voice Recorder")){
         	return getBitmapFromAsset(mContext,"appicon/voicesearch.png");
-        }else if(entry.title.equals("Weather")){
+        }
+    	else if(entry.title.equals("Youtube")){
+        	return getBitmapFromAsset(mContext,"appicon/youtube.png");
+        }
+    	
+    	else if(entry.title.equals("Weather")){
         	return getBitmapFromAsset(mContext,"appicon/weather.png");
-    	}else{
+    	}
+    	else{
     		return entry.icon;
     	}
     	
