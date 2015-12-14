@@ -251,7 +251,7 @@ public class Settings implements Constan{
 		for (int i = 1; i <= DEFAULT_TOUCH_PANEL_ITEM_SIZE; i ++) {
 			int type = mSpref.getInt(TOUCH_MAIN_ITEM_TYPE + i, 0);
 			String data = mSpref.getString(TOUCH_MAIN_ITEM_DATA + i, "");
-			Log.e("cxz",i+ "data "+data+" "+type);
+//			Log.e("cxz",i+ "data "+data+" "+type);
 			if (type == KeyItemInfo.TYPE_NONE) {
 				mMainItemMap.put(i, null);
 			} else {

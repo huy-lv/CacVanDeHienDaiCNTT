@@ -120,7 +120,7 @@ public class SettingsTouchDotActivity extends Activity{
 	private void savePref () {
 		boolean change = false;
 		if (mTouchDotSize != mSetting.getTouchDotSize()) {
-			Log.e("cxz","size="+mTouchDotSize +" "+mSetting.getTouchDotSize());
+//			Log.e("cxz","size="+mTouchDotSize +" "+mSetting.getTouchDotSize());
 			mSetting.setTouchDotSize(mTouchDotSize);
 			change = true;
 		}
