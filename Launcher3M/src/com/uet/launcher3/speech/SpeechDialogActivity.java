@@ -255,8 +255,9 @@ public class SpeechDialogActivity extends Activity implements OnClickListener,Re
 		String[] strarr = matches.get(0).split(" ");
 		String appName="";
 		for(int i=1 ;i<strarr.length ; i++){
-			appName += strarr + " ";
+			appName += strarr[i] + " ";
 		}
+//		Log.e("cxz",matches.get(0)+"     "+appName);
 		openAppByName(appName.trim());
 	}
 
